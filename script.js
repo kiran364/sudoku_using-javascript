@@ -38,7 +38,7 @@ window.onload = function() {
                   for (let i = 0; i < 9; i++) {
                       id("number-container").children[i].classList.remove("selected");
                   } 
-                  //select it and update selectedNum variable
+                  //Select it and update selectedNum variable
                   this.classList.add("selected");
                   selectedNum = this;
                   updateMove();
